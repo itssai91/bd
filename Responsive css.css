@@ -1,0 +1,63 @@
+@media screen and (max-width:960px){
+    .header{
+        height: 50px;
+        background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.7));
+    }
+    .header-images{
+        height: 50px;
+        float: none;
+    }
+    .header-images .brand-images{
+        height: 30px;
+        width: 140px;
+        padding: 10px 20px;
+    }
+    .menu{
+        float: none;
+        display: none;
+    }
+    .menu ul li{
+        display:block;
+        background: rgba(28,28,28,0.6);
+        padding: 2px;
+        font-size: 17px;
+        text-align: center;
+    }
+    .menu ul li:hover{
+        background-color: rgba(255, 166, 0, 0.993);
+        transition: 0.8s;
+    }
+    .menu ul{
+        margin: 0px;
+    }  
+    .wrap-container{
+        width: 90%;
+    }
+    .menu-btn{
+        display: block;
+    }
+    .div-box{
+        width: 100%;
+        float: none;
+        text-align: center;
+    }
+    .service-container{
+        box-shadow: none;
+        position: static;
+        width: 100%;
+    }
+}
+@media screen and (max-width:480px){
+    .wrapper-content h1{
+        font-size: 26px;
+    }
+    .wrapper-content{
+        padding-top: 15%;
+        padding-bottom: 15%
+    }
+}
+@media screen (max-width:320px){
+    .wrapper-content h2{
+        
+    }
+}
